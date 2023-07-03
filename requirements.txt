@@ -3,9 +3,6 @@ pandas
 matplotlib
 plotly
 scikit-learn
-os
-json
-warnings
 requests
 folium
 geopandas
@@ -13,4 +10,5 @@ branca
 cufflinks
 nltk
 wordcloud
-pycaret
+streamlit
+streamlit_folium
