@@ -60,11 +60,10 @@ else:
     st.write('📝 Estimando ... ')
 
 
-if st.button('Precio 👈'):
-    link='https://airbnbtoronto.streamlit.app/Predictor'
-    st.write(link,unsafe_allow_html=True)
-else:
-    pass
+if st.button('Volver 👈'):
+    link = 'https://airbnbtoronto.streamlit.app/Predictor'
+    st.markdown(f'<a href="{link}">Volver</a>', unsafe_allow_html=True)
+
 #--------------------------------------SIDEBAR-------------------------------------#
 
 image1 = Image.open('img/flagToronto.png')
