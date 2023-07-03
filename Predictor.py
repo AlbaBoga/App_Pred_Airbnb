@@ -4,6 +4,7 @@ import pandas as pd
 import streamlit as st
 from PIL import Image
 from pycaret.regression import *
+import webbrowser
 #--------------LIBRERÍAS--------------#
 
 #----------------------------CONFIGURACIÓN DE PÁGINAS----------------------------#
@@ -62,7 +63,7 @@ else:
 
 if st.button('Volver 👈'):
     link = 'https://airbnbtoronto.streamlit.app/Predictor'
-    st.markdown(f'<a href="{link}">Volver</a>', unsafe_allow_html=True)
+    webbrowser.open_new_tab(link)
 
 #--------------------------------------SIDEBAR-------------------------------------#
 
